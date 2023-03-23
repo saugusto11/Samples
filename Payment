@@ -1,0 +1,33 @@
+h = 18
+#week>  w = (seg, ter, qua, qui, sex)
+
+seg, ter, qua, qui, sex, = 4,5,5,6,6
+w1 = (seg, ter, qua, qui, sex,)
+w1m = (seg + ter + qua + qui + sex)
+print ("Week 1")
+
+for x in w1:
+  print(x)
+
+seg, ter, qua, qui, sex, = 6,5,6,7,7
+w2 = (seg, ter, qua, qui, sex,)
+w2m = (seg + ter + qua + qui + sex)
+print ("Week 2")
+
+for x in w2:
+  print(x)
+
+
+print("Total Horas Week 1")
+print (w1m)
+
+print("Total Horas Week 2")
+print (w2m)
+
+print("Total Horas Week 1 + 2")
+print (w1m + w2m)
+y = (w1m + w2m)
+
+print("$$$")
+a = h * y
+print (a)
