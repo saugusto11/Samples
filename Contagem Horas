@@ -1,17 +1,15 @@
 horaTrab = eval(input("Qual o valor da hora?"))
 while horaTrab > 0:
 
-  print("Sua hora é:")
-  print(horaTrab)
-
-
-  print("Por semana com 2 horas") 
-  print(horaTrab*2)
-
-  print("1 hora por semana")
-  print(horaTrab)
-
-  print("Por mês")
+  print("Por dia você ganha:")
   print(horaTrab*8)
+  
+
+  print("Por semana você ganha:")
+  print(horaTrab*40)
+
+
+  print("Por mês você ganha") 
+  print(horaTrab*160)
 
   break
