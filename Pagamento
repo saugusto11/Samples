@@ -1,0 +1,16 @@
+x = valorTrab = eval(input("Qual o valor da hora?"))
+
+z = horaTrab = eval(input("Quantas horas por dia você trabalha?"))
+
+y = diaTrab = eval(input("Quantos dias você trabalhou nesse mês?"))
+
+print ("Por Dia Você Ganha:")
+print (x*z)
+
+print ("Por Semana Você Ganha")
+print (x*z*5)
+
+w = (x*z*5)
+
+print ("Por Mês você Ganha:")
+print (w*4)
