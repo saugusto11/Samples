@@ -1,4 +1,4 @@
-horaTrab = eval(input("Insira o valor da sua hora?"))
+horaTrab = eval(input("Insira o valor da sua hora:"))
 while horaTrab > 0:
 
   print("Por dia você ganha:")
