@@ -1,4 +1,4 @@
-h = 18
+h = 20
 #week>  w = (seg, ter, qua, qui, sex)
 
 seg, ter, qua, qui, sex, = 4,5,5,6,6
